@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		595E71C9264CB435006F0C7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E71C8264CB435006F0C7F /* DetailViewController.swift */; };
 		598A8B0D264A8A1800CFEAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A8B0C264A8A1800CFEAAD /* AppDelegate.swift */; };
 		598A8B0F264A8A1800CFEAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A8B0E264A8A1800CFEAAD /* SceneDelegate.swift */; };
 		598A8B11264A8A1800CFEAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A8B10264A8A1800CFEAAD /* ViewController.swift */; };
 		598A8B14264A8A1800CFEAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A8B12264A8A1800CFEAAD /* Main.storyboard */; };
 		598A8B16264A8A2600CFEAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A8B15264A8A2600CFEAAD /* Assets.xcassets */; };
 		598A8B19264A8A2600CFEAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A8B17264A8A2600CFEAAD /* LaunchScreen.storyboard */; };
+		59C0A5F3264B9ADA0096ADB7 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C0A5F2264B9ADA0096ADB7 /* Petition.swift */; };
+		59C0A5F6264B9B670096ADB7 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C0A5F5264B9B670096ADB7 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		595E71C8264CB435006F0C7F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		598A8B09264A8A1800CFEAAD /* WhiteHouse Petitions App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhiteHouse Petitions App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A8B0C264A8A1800CFEAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		598A8B0E264A8A1800CFEAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		598A8B15264A8A2600CFEAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598A8B18264A8A2600CFEAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598A8B1A264A8A2600CFEAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C0A5F2264B9ADA0096ADB7 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		59C0A5F5264B9B670096ADB7 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				598A8B0C264A8A1800CFEAAD /* AppDelegate.swift */,
 				598A8B0E264A8A1800CFEAAD /* SceneDelegate.swift */,
 				598A8B10264A8A1800CFEAAD /* ViewController.swift */,
+				595E71C8264CB435006F0C7F /* DetailViewController.swift */,
+				59C0A5F2264B9ADA0096ADB7 /* Petition.swift */,
+				59C0A5F5264B9B670096ADB7 /* Petitions.swift */,
 				598A8B12264A8A1800CFEAAD /* Main.storyboard */,
 				598A8B15264A8A2600CFEAAD /* Assets.xcassets */,
 				598A8B17264A8A2600CFEAAD /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				598A8B11264A8A1800CFEAAD /* ViewController.swift in Sources */,
+				59C0A5F3264B9ADA0096ADB7 /* Petition.swift in Sources */,
 				598A8B0D264A8A1800CFEAAD /* AppDelegate.swift in Sources */,
+				595E71C9264CB435006F0C7F /* DetailViewController.swift in Sources */,
 				598A8B0F264A8A1800CFEAAD /* SceneDelegate.swift in Sources */,
+				59C0A5F6264B9B670096ADB7 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
